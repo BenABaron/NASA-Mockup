@@ -1,3 +1,45 @@
 body {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-image: url(https://cdn.pixabay.com/photo/2011/12/13/14/31/ngc-4414-11016_960_720.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -300pt;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  font-size: 72pt;
+}
+
+main {
+  background-color: E6E6E6;
+  margin-top: 20pt;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  border: 1px solid red;
+  width: 30%;
+  background-color: ;
+}
+
+h2 {
+  color: black;
+  font-size: 32pt;
+}
+
+p {
+  color: rgb(83, 83, 83);
+  font-size: 16pt;
 }
