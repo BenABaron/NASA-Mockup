@@ -26,12 +26,12 @@ main {
   height: auto;
   display: flex;
   justify-content: space-around;
+  height: 300pt;
 }
 
 section {
-  border: 1px solid red;
   width: 30%;
-  background-color: ;
+  height: auto;
 }
 
 h2 {
@@ -41,5 +41,32 @@ h2 {
 
 p {
   color: rgb(83, 83, 83);
+  font-size: 12pt;
+  line-height: 20pt;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 12pt;
+}
+
+input {
+  width: 100%;
+  border: none;
+  font-size: 12pt;
+}
+
+.message {
+  height: 80pt;
+}
+
+button {
+  border: none;
+  background-color: rgb(83, 83, 83);
+  color: white;
   font-size: 16pt;
+  height: auto;
+  width: auto;
 }
